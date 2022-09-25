@@ -20,7 +20,7 @@ flex-container에는 정렬 방식과 item의 배치 흐름을 정의하고, fle
 
 axis로 자식 요소의 정렬 방향을 제어할 수 있다. 행방향, 열방향으로 각각 반대 방향도 지원한다.
 
-![1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2364a6ba-e991-4e6c-a961-eea1ee9f17b3/1.png)
+![image](https://user-images.githubusercontent.com/51049245/192127195-878063e0-a01d-4424-86f7-904732e66f98.png)
 
 ### 1.2.2. 주축과 교차축
 
@@ -35,11 +35,11 @@ Flex의 주축이 되는 main axis의 방향은 `flex-direction` 이라는 속�
 3. `flex-direction: column` : 아이템들이 열 방향으로, 세로로 배치된다. 
 4. `flex-direction: column-reverse` : 아이템들이 역순으로 세로로 배치된다. 
 
-![flex-direction:row](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1202e917-4e9f-46d0-b08d-81f8dc11d779/Untitled.png)
+![image](https://user-images.githubusercontent.com/51049245/192127201-6362a0a7-b522-40de-bd17-2af18c46ae00.png)
 
 flex-direction:row
 
-![flex-direction:column](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83563037-6b0c-416a-a49e-a9ff7e2795e0/Untitled.png)
+![image](https://user-images.githubusercontent.com/51049245/192127202-7d673e38-80a9-425d-8aeb-1d7161a1fa2f.png)
 
 flex-direction:column
 
