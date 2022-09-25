@@ -17,11 +17,11 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 **`flex-direction: row;`**인 경우에는 가로(row=행)로 정렬 하며 왼쪽 상단이 기준점이 되어서 왼쪽 상단부터 차례대로 1, 2, 3번 순으로 아이템이 배치된다.
 
-![스크린샷 2022-05-21 오후 8.53.37.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69a62dcf-cc4f-4b77-a3c1-886c23af06d3/스크린샷_2022-05-21_오후_8.53.37.png)
+![image](https://user-images.githubusercontent.com/51049245/192127233-5e05e688-f79a-4682-88e9-7580322f6da2.png)
 
 그렇지만 **`flex-direction: column;`**을 준 경우에는, 컨테이너의 상단이 기준점인 것은 같지만 flex 방향이 row(행)가 아닌 column(열)이기 때문에 세로(열)로 아이템이 배치된다.
 
-![스크린샷 2022-05-21 오후 8.55.21.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/75275f13-c39e-4ab3-91c3-743f3a9029eb/스크린샷_2022-05-21_오후_8.55.21.png)
+![image](https://user-images.githubusercontent.com/51049245/192127239-062d4e32-6251-4ba6-b235-0581a539c2e7.png)
 
 ```css
 .container {
@@ -46,13 +46,13 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 **`flex-direction: row;`**인 경우일 때에는 row(행)로 정렬하기 때문에 자식 요소(아이템)인 1, 2, 3번의 아이템들이 오른쪽 축에 붙어 배치된다.
 
-![스크린샷 2022-05-21 오후 8.58.22.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0f1d9e1-b6e6-45a7-836b-ce40f475f2e3/스크린샷_2022-05-21_오후_8.58.22.png)
+![image](https://user-images.githubusercontent.com/51049245/192127243-8ff30880-af02-4a67-93c4-8608189b6cc2.png)
 
 **`flex-direction: column;`** 을 준 경우에는, flex 방향이 row(행)가 아닌 column(열)이 되기 때문에 세로(열)로 자식 요소(아이템)가 배치된다.
 
 그리고 **`justify-content: flex-end;`** 의 경우, 자식 요소(아이템)를 배치하는 기준이 기본값(상단 축)의 반대인 하단 축이 되기 때문에 1, 2, 3번의 아이템이 세로로 정렬되어 하단에 붙어 배치된다.
 
-![스크린샷 2022-05-21 오후 8.56.52.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d7011f6-c482-41c6-8dd2-3727398dd274/스크린샷_2022-05-21_오후_8.56.52.png)
+![image](https://user-images.githubusercontent.com/51049245/192127245-07344965-4c7a-4bc9-abc8-875d215f722c.png)
 
 ```css
 .container {
@@ -73,7 +73,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 }
 ```
 
-![스크린샷 2022-05-21 오후 7.29.21.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be5d590e-2798-440e-9a2b-8c942ef2bfd4/스크린샷_2022-05-21_오후_7.29.21.png)
+![image](https://user-images.githubusercontent.com/51049245/192127247-d6cd2437-f1e0-4673-9437-92190eeb67c1.png)
 
 ```css
 .container {
@@ -83,7 +83,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 }
 ```
 
-![스크린샷 2022-05-21 오후 7.29.41.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c6b97ce-9425-45dd-85cf-5f368a316d3e/스크린샷_2022-05-21_오후_7.29.41.png)
+![image](https://user-images.githubusercontent.com/51049245/192127251-b65b1beb-7205-409d-b3ff-3d37e15060c7.png)
 
 ```css
 .container {
@@ -98,7 +98,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 다음으로 `space-between`, `space-around`, `space-evenly`의 비슷하면서도 다른 점들을 알아보자. 위 셋의 공통점은 자식 요소들을 메인 축으로 정렬하며, 일정한 간격을 준다는 것이다. between, around, evenly의 뜻은 차례로 ‘사이에’, ‘둘레에’, ‘균등하게’라는 뜻이다. 그럼 뜻을 생각하며 아래 그림으로 차이점을 확인해 보자.
 
-![스크린샷 2022-05-21 오후 7.28.23.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5f6b177-790f-43cc-ba3d-85d5b74b7faf/스크린샷_2022-05-21_오후_7.28.23.png)
+![image](https://user-images.githubusercontent.com/51049245/192127254-60858e96-936b-4c00-aa87-4e38998cc019.png)
 
 ```css
 .container {
@@ -111,7 +111,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 ### 3.4.1. space-between
 
-![스크린샷 2022-05-21 오후 7.27.50.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4fccecf-9fc2-4e58-a560-d85c644922bd/스크린샷_2022-05-21_오후_7.27.50.png)
+![image](https://user-images.githubusercontent.com/51049245/192127255-eb8ed8ea-9921-4bf4-a104-6d0f7cf23bcd.png)
 
 ```css
 .container {
@@ -124,7 +124,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 ### 3.4.2. space-around
 
-![스크린샷 2022-05-21 오후 7.27.24.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/712c0593-7dfb-48ef-ad33-3b132faf8ed3/스크린샷_2022-05-21_오후_7.27.24.png)
+![image](https://user-images.githubusercontent.com/51049245/192127260-8bc8a990-2413-40e1-89d3-88b5c6161e00.png)
 
 ```css
 .container {
@@ -137,7 +137,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 ### 3.4.3. space-evenly
 
-![스크린샷 2022-05-21 오후 7.26.58.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/928acc10-338c-4c0c-95cc-a73b5301f82b/스크린샷_2022-05-21_오후_7.26.58.png)
+![image](https://user-images.githubusercontent.com/51049245/192127261-5d8a50a9-2686-4a9b-8e75-d7a67b3a5b30.png)
 
 ```css
 .container {
@@ -154,7 +154,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 값이 설정되지 않은 것처럼 기본 위치에 정렬한다. 기본값이므로 생략 할 수 있다.
 
-![스크린샷 2022-05-21 오후 7.25.49.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/869e1d7e-ede0-4260-bc7f-99b42fabe491/스크린샷_2022-05-21_오후_7.25.49.png)
+![image](https://user-images.githubusercontent.com/51049245/192127265-896d0397-8529-4e7c-82c1-e5a4bf0af00a.png)
 
 ```css
 .container {
@@ -168,7 +168,7 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 기본값으로 정렬한다. justify-content의 기본값은 normal이므로 위의 justify-content:normal과 결과가 동일하게 나온다.
 
-![스크린샷 2022-05-21 오후 7.25.49.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d1c8caf-adb0-4886-abf2-64e64e24973f/스크린샷_2022-05-21_오후_7.25.49.png)
+![image](https://user-images.githubusercontent.com/51049245/192127267-f82e4220-962c-4d09-a394-96543b4087b7.png)
 
 ```css
 .container {
@@ -182,7 +182,8 @@ justify-content는 main-axis로 어떻게 정렬할지 정하는 코드이다.
 
 상속되는 값에 따라 정렬한다. container에 class 명이 “wrap-container”인 부모 요소를 만들어 주었다. wrap-container의 justify-content:center 속성이 상속되어 자식 요소인 container의 justify-content도 center로 적용된다.
 
-![스크린샷 2022-05-21 오후 7.25.49.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fdd868ff-cb2a-4410-b8d7-251910be2a7f/스크린샷_2022-05-21_오후_7.25.49.png)
+
+![image](https://user-images.githubusercontent.com/51049245/192127271-dc2d0231-2e6d-4812-98e4-7db6a466d2dd.png)
 
 ```css
 .wrap-container {
