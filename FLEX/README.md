@@ -11,7 +11,7 @@ flex-container에는 정렬 방식과 item의 배치 흐름을 정의하고, fle
 
 어떠한 속성을 적용해야 하는지 헷갈리는 경우, 컨테이너에 flex 속성을 적용한 뒤 크롬 개발자 도구의 스타일 탭을 확인하면 좋다. 주요한 속성 다섯 가지를 GUI 기능으로 제공하여 적용된 모습을 확인해볼 수 있기 때문이다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7866f0cd-3e55-4860-8dae-7cbf4844f048/Untitled.png)
+![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7866f0cd-3e55-4860-8dae-7cbf4844f048/Untitled.png)
 
 ## 1.2. axis와 cross-axis
 
