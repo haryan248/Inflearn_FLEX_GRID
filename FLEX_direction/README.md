@@ -6,7 +6,7 @@
 
 왼쪽에서 오른쪽으로 글씨가 써지는 **행 방향 정렬**이며, `flex-direction`을 따로 설정하지 않으면 초깃값으로 설정된다. 
 
-![row.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/881ac026-7790-49c0-aba9-3270ac18f280/row.png)
+![image](https://user-images.githubusercontent.com/51049245/192127217-7dd61120-17ae-4949-aa82-9fd1ffc1c60a.png)
 
 ```css
 .container {
@@ -19,7 +19,7 @@
 
 `row`와 동일하게 보여지지만 시작점과 끝점이 반대로 위치한다.
 
-![row-reverse.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/62ba33c4-05df-40a8-a09a-bb009dadd5fe/row-reverse.png)
+![image](https://user-images.githubusercontent.com/51049245/192127219-757ec8ec-6770-40b4-a247-8d6f143a2003.png)
 
 ```css
 .container {
@@ -34,7 +34,7 @@
 
 Flex 내 box들을 수직으로 정렬한다. 컨테이너 내부의 요소들이 아이템이 아닌 경우 해당 속성의 값은 적용되지 않는다. `flex-direction : column;`일 때 주축은 세로 방향이 되고, 교차 축은 가로 방향이 된다. 아이템을 추가하는 경우 마크업 순서에 맞게 위에서 아래로 흐르듯이 정렬된다.
 
-![col.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ced55d7-3efa-4cf6-8624-1b121f23e80f/col.png)
+![image](https://user-images.githubusercontent.com/51049245/192127220-0190f5ca-c09c-4fdf-8666-901571168210.png)
 
 ```css
 .container{
@@ -47,7 +47,7 @@ Flex 내 box들을 수직으로 정렬한다. 컨테이너 내부의 요소들�
 
 `column` 과 동일하게 보여지지만 시작 점과 끝 점이 반대로 위치한다.
 
-![col-reverse.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e589dfda-ef65-4d61-a4c2-a8453e45404d/col-reverse.png)
+![image](https://user-images.githubusercontent.com/51049245/192127226-654c2856-ebcb-4910-b76f-100e03342a3d.png)
 
 ```css
 .container{
