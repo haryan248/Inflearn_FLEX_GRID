@@ -20,7 +20,7 @@ flex-container에는 정렬 방식과 item의 배치 흐름을 정의하고, fle
 
 axis로 자식 요소의 정렬 방향을 제어할 수 있다. 행방향, 열방향으로 각각 반대 방향도 지원한다.
 
-![image](https://user-images.githubusercontent.com/51049245/192127195-878063e0-a01d-4424-86f7-904732e66f98.png)
+![image](https://user-images.githubusercontent.com/51049245/192127211-bda8403b-c7c7-4d31-a9e7-c7b26341d06d.png)
 
 ### 1.2.2. 주축과 교차축
 
